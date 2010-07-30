@@ -1,0 +1,15 @@
+<?php
+/*
+
+[[!Copyright? &StartYear=`2009` ]]
+
+
+*/
+
+$Name = "[[++site_name]]";
+#$StartYear = "2009";
+$Powered = "Powered by <a href='http://www.modxcms.com'>MODx</a>";
+$Separator = "~";
+
+echo "&copy; $Name $StartYear-", date("Y"), "&nbsp;$Separator&nbsp;", "$Powered";
+?>
