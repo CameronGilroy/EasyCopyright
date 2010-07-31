@@ -1,0 +1,30 @@
+h1. Copyright
+
+By Cameron Gilroy
+
+Copyright is a simple snippet for ModX Revolution that inserts the the current year and the site name. Check the example below.
+
+??© +CameronGilroy.com+ 2009-2010 ~ Powered by +MODx+??
+
+h2. Instillation
+
+h3. Usage
+
+Call the snippet in your page like this @[[!Copyright? &StartYear=`2009` ]]@
+
+
+h2. Configuration
+
+The variables that are available are listed below with a description.
+
+* Name - Your site name
+* Start Year - 
+* Powered - is the link to ModX
+* Separator - is the separator that go's between the Start Year and the current year
+
+h3. Defaults
+
+* Name - Your site name
+* Start Year - No Default must be called in the snippet
+* Powered - is the link to ModX
+* Separator - "~"
