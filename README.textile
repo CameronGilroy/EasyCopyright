@@ -4,7 +4,7 @@ By Cameron Gilroy
 
 Copyright is a simple snippet for ModX Revolution that inserts the the current year and the site name. Check the example below.
 
-??© +CameronGilroy.com+ 2009-2010 ~ Powered by +MODx+??
+??© +CameronGilroy.com+ 2009-2010 - Powered by +MODx+??
 
 h2. Instillation
 
