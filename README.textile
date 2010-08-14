@@ -2,7 +2,7 @@ h1. Easy Copyright
 
 By Cameron Gilroy
 
-Copyright is a simple snippet for ModX Revolution that inserts the the current year and the site name. Check the example below.
+Easy Copyright is a simple snippet for ModX Revolution that inserts the the current year and the site name. Check the example below.
 
 ??© +CameronGilroy.com+ 2009-2010 - Powered by +MODx+??
 
@@ -10,8 +10,8 @@ h2. Instillation
 
 h3. Usage
 
-@[[Copyright]]@ - Outputs ??© +[[Your Site name here]]+ 2010 - Powered by +MODx+??
-@[[Copyright?StartYear=`2009`]]@ - Outputs ??© +[[Your Site name here]]+ 2009-2010 - Powered by +MODx+??
+@[[EasyCopyright]]@ - Outputs ??© +[[Your Site name here]]+ 2010 - Powered by +MODx+??
+@[[EasyCopyright?StartYear=`2009`]]@ - Outputs ??© +[[Your Site name here]]+ 2009-2010 - Powered by +MODx+??
 
 
 h2. Configuration
