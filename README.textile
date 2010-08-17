@@ -15,12 +15,12 @@ h3. Usage
 h2. Configuration
 
 The variables that are available are listed below with a description.
-You can also call the contents of a chunk in to any of these fields like this @[[EasyCopyright? &Powered=`[[$Your_Chunk_Name]]`]]@
+You can also call the contents of a chunk into any of these fields like this @[[EasyCopyright? &Powered=`[[$Your_Chunk_Name]]`]]@
 
 * Name - Your site name
 * Start Year - What ever you put in!
 * Powered - is the link to the ModX site
-* Separator - is the separator that go's between the Start Year and the current year
+* Separator - is the separator that goes between the Start Year and the current year
 
 h3. Defaults
 
