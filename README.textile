@@ -1,6 +1,14 @@
 h1. EasyCopyright
 
-By Cameron Gilroy
+h3. About
+
+* By Cameron Gilroy
+* EasyCopyright
+* Version: 1.0
+* Based in part on Copyright by AMDbuilder
+* Creator: Cameron Gilroy http://www.camerongilroy.com
+* Support URL: http://www.camerongilroy.com/
+* GitHub: http://github.com/camgill/EasyCopyright
 
 EasyCopyright is a simple snippet for ModX Revolution that inserts the the current year and the site name. Check the example below.
 
