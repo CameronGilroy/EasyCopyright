@@ -1,6 +1,6 @@
 <?php
 /*
-  Easy Copyright
+  EasyCopyright
   Version: 1.0
   Based in part on Copyright by AMDbuilder
   Creator: Cameron Gilroy http://www.camerongilroy.com
