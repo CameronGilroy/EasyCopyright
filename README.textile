@@ -6,26 +6,25 @@ Easy Copyright is a simple snippet for ModX Revolution that inserts the the curr
 
 ??© +CameronGilroy.com+ 2009-2010 - Powered by +MODx+??
 
-h2. Instillation
-
 h3. Usage
 
 @[[EasyCopyright]]@ - Outputs ??© +[[Your Site name here]]+ 2010 - Powered by +MODx+??
-@[[EasyCopyright?StartYear=`2009`]]@ - Outputs ??© +[[Your Site name here]]+ 2009-2010 - Powered by +MODx+??
+@[[EasyCopyright? &StartYear=`2009`]]@ - Outputs ??© +[[Your Site name here]]+ 2009-2010 - Powered by +MODx+??
 
 
 h2. Configuration
 
 The variables that are available are listed below with a description.
+You can also call the contents of a chunk in to any of these fields like this @[[EasyCopyright? &Powered=`[[$Your_Chunk_Name]]`]]@
 
 * Name - Your site name
-* Start Year - 
-* Powered - is the link to ModX
+* Start Year - What ever you put in!
+* Powered - is the link to the ModX site
 * Separator - is the separator that go's between the Start Year and the current year
 
 h3. Defaults
 
 * Name - Your site name
 * Start Year - No Default must be called in the snippet
-* Powered - is the link to ModX
+* Powered - is the link to the ModX site
 * Separator - "~"
