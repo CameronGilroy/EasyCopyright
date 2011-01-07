@@ -4,7 +4,7 @@ h3. About
 
 * By Cameron Gilroy
 * EasyCopyright
-* Version: 1.0
+* Version: 1.1
 * Based in part on Copyright by AMDbuilder
 * Creator: Cameron Gilroy http://www.camerongilroy.com
 * Support URL: http://www.camerongilroy.com/
@@ -28,11 +28,13 @@ You can also call the contents of a chunk into any of these fields like this @[[
 * Name - Your site name
 * Start Year - What ever you put in!
 * Powered - is the link to the ModX site
-* Separator - is the separator that goes between the Start Year and the current year
+* YearSeparator - is the separator that goes between the Start Year and the current year
+* PoweredBySeparator - is the separator that goes between the current Year and Powered by
 
 h3. Defaults
 
 * Name - Your site name
 * Start Year - No Default must be called in the snippet
 * Powered - is the link to the ModX site
-* Separator - "~"
+* YearSeparator - "-"
+* PoweredBySeparator - "-"

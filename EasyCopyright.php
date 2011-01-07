@@ -6,7 +6,7 @@
   
   * By Cameron Gilroy
   * EasyCopyright
-  * Version: 1.0
+  * Version: 1.1
   * Based in part on Copyright by AMDbuilder
   * Creator: Cameron Gilroy http://www.camerongilroy.com
   * Support URL: http://www.camerongilroy.com/
@@ -30,23 +30,26 @@
   * Name - Your site name
   * Start Year - What ever you put in!
   * Powered - is the link to the ModX site
-  * Separator - is the separator that goes between the Start Year and the current year
+  * YearSeparator - is the separator that goes between the Start Year and the current year
+  * PoweredBySeparator - is the separator that goes between the current Year and Powered by
   
   h3. Defaults
   
   * Name - Your site name
   * Start Year - No Default must be called in the snippet
   * Powered - is the link to the ModX site
-  * Separator - "~"
+  * YearSeparator - "-"
+  * PoweredBySeparator - "-"
 
 */
 
 $Name = isset($Name)? $Name : "[[++site_name]]";
 $Powered = isset($Powered)? $Powered : "Powered by <a href='http://www.modxcms.com'>MODx</a>";
-$Separator = isset($Separator)? $Separator : "-";
+$YearSeparator = isset($YearSeparator)? $YearSeparator : "-";
+$PoweredBySeparator = isset($PoweredBySeparator)? $PoweredBySeparator : "-";
 $cYear = date("Y");
 $StartYear = isset($StartYear)? $StartYear : $cYear;
-$years = ($cYear > $StartYear) ? $StartYear.$Separator.$cYear : $cYear;
+$years = ($cYear > $StartYear) ? $StartYear.$YearSeparator.$cYear : $cYear;
 
-echo "&copy; $Name $years &nbsp;$Separator&nbsp; $Powered";
+echo "&copy; $Name $years &nbsp;$PoweredBySeparator&nbsp; $Powered";
 ?>
