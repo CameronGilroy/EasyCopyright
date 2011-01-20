@@ -46,7 +46,6 @@ You can also call the contents of a chunk into any of these fields like this <co
 * Powered - is the link to the ModX site
 * YearSeparator - "-"
 * PoweredBySeparator - "-"
-
 */
 
 $Name = isset($Name)? $Name : "[[++site_name]]";
