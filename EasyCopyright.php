@@ -24,14 +24,14 @@ A big thank you goes to the creators of MODx Revolution!
 
 ###Usage###
 
-<code>[[EasyCopyright]]</code> - Outputs *© [[Your Site name here]] 2011 - Powered by MODx*  
-<code>[[EasyCopyright? &StartYear=`2009`]]</code> - Outputs *© [[Your Site name here]] 2009-2011 - Powered by MODx*
+<code>[[!EasyCopyright]]</code> - Outputs *© [[Your Site name here]] 2011 - Powered by MODx*  
+<code>[[!EasyCopyright? &StartYear=`2009`]]</code> - Outputs *© [[Your Site name here]] 2009-2011 - Powered by MODx*
 
 
 ##Configuration##
 
 The variables that are available are listed below with a description.
-You can also call the contents of a chunk into any of these fields like this <code>[[EasyCopyright? &Powered=`[[$Your_Chunk_Name]]`]]</code>
+You can also call the contents of a chunk into any of these fields like this <code>[[!EasyCopyright? &Powered=`[[$Your_Chunk_Name]]`]]</code>
 
 * Name - Your site name
 * Start Year - What ever you put in!
