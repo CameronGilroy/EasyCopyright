@@ -7,7 +7,7 @@
 
 * By Cameron Gilroy
 * EasyCopyright
-* Version: 1.1
+* Version: 1.1.1
 * Based in part on Copyright by AMDbuilder
 * Creator: Cameron Gilroy http://www.camerongilroy.com
 * Support URL: http://www.camerongilroy.com/
