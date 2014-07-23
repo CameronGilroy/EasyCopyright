@@ -49,9 +49,19 @@ You can also call the contents of a chunk into any of these fields like this <co
 */
 
 $Name = isset($Name)? $Name : $modx->getOption('name',$scriptProperties,'[[++site_name]]');
-$Powered = isset($Powered)? $Powered : "Powered by <a href='http://www.modxcms.com'>MODx</a>";
-$YearSeparator = isset($YearSeparator)? $YearSeparator : "-";
+
 $PoweredBySeparator = isset($PoweredBySeparator)? $PoweredBySeparator : "-";
+$Powered = isset($Powered)? $Powered : "Powered by <a href='http://www.modxcms.com'>MODx</a>";
+
+if ($PoweredBy != 'false') {
+
+	$PoweredBy = " ".$PoweredBySeparator." ".$Powered;
+
+} else {
+	$PoweredBy = "";
+}
+
+$YearSeparator = isset($YearSeparator)? $YearSeparator : "-";
 $cYear = date("Y");
 $StartYear = isset($StartYear)? $StartYear : $cYear;
 $years = ($cYear > $StartYear) ? $StartYear.$YearSeparator.$cYear : $cYear;
