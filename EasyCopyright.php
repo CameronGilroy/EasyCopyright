@@ -48,7 +48,7 @@ You can also call the contents of a chunk into any of these fields like this <co
 * PoweredBySeparator - "-"
 */
 
-$Name = isset($Name)? $Name : "[[++site_name]]";
+$Name = isset($Name)? $Name : $modx->getOption('name',$scriptProperties,'[[++site_name]]');
 $Powered = isset($Powered)? $Powered : "Powered by <a href='http://www.modxcms.com'>MODx</a>";
 $YearSeparator = isset($YearSeparator)? $YearSeparator : "-";
 $PoweredBySeparator = isset($PoweredBySeparator)? $PoweredBySeparator : "-";
