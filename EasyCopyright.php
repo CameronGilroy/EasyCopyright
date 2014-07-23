@@ -56,5 +56,5 @@ $cYear = date("Y");
 $StartYear = isset($StartYear)? $StartYear : $cYear;
 $years = ($cYear > $StartYear) ? $StartYear.$YearSeparator.$cYear : $cYear;
 
-echo "&copy; $Name $years &nbsp;$PoweredBySeparator&nbsp; $Powered";
+return "&copy; $Name $years$PoweredBy";
 ?>
